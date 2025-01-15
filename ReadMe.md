@@ -18,6 +18,10 @@ Run it with a valid cron expression as an argument:
 ```bash
 java -cp target/CronParserAssignment-1.0-SNAPSHOT.jar org.cronparser.CronParserApplication "*/15 0 1,15 * 1-5 /usr/bin/find"
 ```
+OR
+Run the main function CronParserApplication.main and edit configuration and add program argument 
+![img.png](img.png)
+
 This will print out the output in which the event should occur.
 
 ## Tests
